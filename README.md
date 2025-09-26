@@ -62,6 +62,18 @@ euroleague-2024-25/
 - Turnovers decrease probability of winning
 - Dummy data confirms pipeline works and is ready for real EuroLeague data
 
+
+## Streamlit App 🚀
+
+This project also includes a **Streamlit app** for interactive exploration.
+
+Run locally:
+
+```bash
+streamlit run app.py
+```
+
+
 ### Model Comparison
 
 - Baseline: Logistic Regression (dummy data)
