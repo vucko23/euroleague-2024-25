@@ -17,5 +17,11 @@ data/raw/
 data/processed/
 
 # Outputs
-outputs/
-models/
+# Ignore everything in outputs except charts PNGs
+outputs/*
+!outputs/charts/
+outputs/charts/*
+!outputs/charts/*.png
+
+# macOS
+.DS_Store
